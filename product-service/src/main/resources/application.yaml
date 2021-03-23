@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: product-service
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EURECA_URI:http://localhost:8761/eureka}
+server:
+  port: 0
